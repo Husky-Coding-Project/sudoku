@@ -1,0 +1,81 @@
+/*Universal Content*/
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: CarterOne;
+    src: url(../CarterOne-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+
+    color: black;
+
+    font-family: CarterOne;
+}
+
+/* End of Universal Content*/
+
+/* Start of Navbar*/
+
+.navbar{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 100vw;
+
+    font-size: 20px;
+
+    padding:3%;
+
+    background-color: #B8F5F1;
+
+}
+
+.logo{
+
+    margin-left: 5%;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+}
+
+.container {
+
+    display: flex;
+
+    float: right;
+
+    margin-right: 5%;
+
+    width: 30%;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-right: 5%;
+    
+    list-style: none;
+
+    flex-wrap: wrap;
+    
+}
+
+.nav_link{
+
+    padding: 10%;
+
+}
+
+/* End of Navbar*/
