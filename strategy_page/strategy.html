@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCP Sudoku</title>
+    <link rel="stylesheet" href="strategy.css">
+
+    <!-- https://fontawesome.com/v6/docs/web/setup/get-started -->
+
+    <!-- Really good way to add icons into the website-->
+
+</head>
+
+<body>
+
+    <!--Navbar HTML start-->
+
+    <nav class="navbar">
+
+        <div class="logo_header">
+            
+            <a href="../home_page/index.html" class="logo">HCP</a>
+
+        </div>
+
+         <ul class="container flex">
+
+            <li>
+                <a href="../rule_page/rule.html" class="nav_link">Rules</a>
+            </li>
+
+            <li>
+                <a href="../strategy_page/strategy.html" class="nav_link">Strategy</a>
+            </li>
+
+            <li>
+
+                <a href="../about_page/about.html" class="nav_link">About</a>
+
+                <!--The "../" allows you to go up a folder in the hierarchy in this case it went from the "home_page folder into the "sudoku" folder, then i had it redirect into the "about_page" folder using the "/about_page/" then had it direct to the "about.html" file-->
+
+            </li>
+
+         </ul>
+        
+
+    </nav>
+
+    <!--Navbar HTML End-->
+
+    <!-- Strategy Content Area Start-->
+
+    <div class="strategy_content">
+
+        <h2 class="strategy_header">  Here are some tips and tricks to up your Sudoku game!</h2>
+
+        <p class="strategy_subtext">
+
+            Try looking at which values can possibly go into a square; if there is only one possible value, then the square must hold that value. You can extend this and look at an entire row, column or box using this strategy!
+
+        </p>
+        
+        <p class="strategy_subtext">
+            No guessing is required to solve a sudoku puzzle; think carefully about how a value in one square would affect the entire puzzle!
+        </p>
+
+    </div>
+
+    <!-- Strategy Content Area End-->
+</body>
+
+</html>
