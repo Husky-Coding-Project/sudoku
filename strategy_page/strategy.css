@@ -54,6 +54,12 @@ a{
 
     font-weight: bold;
 
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: clip;
+
 }
 
 .container {
@@ -71,11 +77,11 @@ a{
     align-items: center;
 
     padding-right: 5%;
-    
+
     list-style: none;
 
     flex-wrap: wrap;
-    
+
 }
 
 .nav_link{
@@ -99,8 +105,12 @@ a{
 }
 
 .strategy_subtext, .strategy_header{
-    
+
     padding: 1vh;
 
     margin: 1vh;
+}
+
+.link {
+    text-decoration: underline;
 }
