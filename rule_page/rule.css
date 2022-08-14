@@ -2,9 +2,9 @@
 *{
 
     margin: 0;
-    
+
     padding: 0;
-    
+
 }
 
 @font-face {
@@ -54,6 +54,12 @@ a{
 
     font-weight: bold;
 
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: clip;
+
 }
 
 .container {
@@ -71,12 +77,12 @@ a{
     align-items: center;
 
     padding-right: 5%;
-    
+
     list-style: none;
 
     flex-wrap: wrap;
 
-    
+
 }
 
 .nav_link{
@@ -106,6 +112,8 @@ a{
     padding: 1vh;
 
     margin: 1vh;
+
+    text-align: center;
 
 }
 
