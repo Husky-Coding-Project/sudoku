@@ -84,4 +84,12 @@ a{
 
 }
 
+
+.nav_link:hover, .logo:hover {
+    color: blue;    
+}
+
+.active {
+    color: blue;
+}
 /* End of Navbar*/
