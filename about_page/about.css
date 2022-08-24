@@ -89,6 +89,10 @@ a{
 
 }
 
+.nav_link:hover, .logo:hover {
+    color: blue;    
+}
+
 /* End of Navbar*/
 
 /* Start of "about" content*/
@@ -117,6 +121,10 @@ a{
 
     font-family: CarterOne;
 
+}
+
+.active {
+    color: blue;
 }
 
 /* End of "about" content */

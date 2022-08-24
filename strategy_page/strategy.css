@@ -46,6 +46,10 @@ a{
 
 }
 
+.nav_link:hover, .logo:hover, .link:hover {
+    color: blue;    
+}
+
 .logo{
 
     margin-left: 5%;
@@ -113,4 +117,8 @@ a{
 
 .link {
     text-decoration: underline;
+}
+
+.active {
+    color: blue;
 }
