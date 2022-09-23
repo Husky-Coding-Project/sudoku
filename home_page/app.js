@@ -25,10 +25,11 @@ let solution = [
     "287419635",
     "345286179"
 ]
- 
-window.onLoad = function(){
+
+window.onload = function(){
     setGame();
 }
+
 function setGame(){
     //Creates Numpad//
     //Essentially does what bellow does in html but with less code//
@@ -86,9 +87,8 @@ function selectTile(){
         }
         // Looking to have Tile Background change to red when its not the solution//
         //needs to be worked on//
-        else {
-           
-        }
+        // else {
+        // }
     }
 }
 //Button Eraser//
